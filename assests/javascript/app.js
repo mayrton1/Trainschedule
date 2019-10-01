@@ -1,13 +1,15 @@
 // Initialize Firebase
-var config = {
-    apiKey: "AIzaSyBDuUwgDzR9fs0qEnCIThEDRmlL1TpnA0w",
-    authDomain: "casethetrain.firebaseapp.com",
-    databaseURL: "https://casethetrain.firebaseio.com",
-    projectId: "casethetrain",
-    storageBucket: "",
-    messagingSenderId: "870980193204"
+var firebaseConfig = {
+    apiKey: "AIzaSyBh9wTpiEVr4i29KoM_Wfv-s-bpDgRxq9A",
+    authDomain: "creech-12.firebaseapp.com",
+    databaseURL: "https://creech-12.firebaseio.com",
+    projectId: "creech-12",
+    storageBucket: "creech-12.appspot.com",
+    messagingSenderId: "465248505243",
+    appId: "1:465248505243:web:6c53663447f5a28435253e"
   };
-  firebase.initializeApp(config);
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
 //Make var to call database
   var database = firebase.database();
