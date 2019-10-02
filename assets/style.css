@@ -1,0 +1,20 @@
+.jumbotron{
+    background-image: url("assests/images/train.jpg");
+    
+        font-family: 'Teleindicadores1Regular';
+        font-weight: normal;
+        font-style: normal;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+body{
+    color:purple;
+}
+
+h3{
+    color:rgba(10, 121, 224, 0.822);
+}
