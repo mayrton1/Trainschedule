@@ -95,6 +95,6 @@ firebase.initializeApp(firebaseConfig);
       //get the val of minsaway and append it to The minsAway
       $("#minsAway").append(tMinutesTillTrain + "<hr>")
       //
-      $("#arivalTime").append(moment(nextTrain).format("hh:mm") + "<hr>")
+      $("#arivalTime").append(moment(nextTrain).format("HH:mm") + "<hr>")
   });
     })
